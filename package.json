@@ -1,0 +1,27 @@
+{
+  "name": "rest-api",
+  "version": "0.0.1",
+  "description": "This Rest API for Angular application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "Shiv Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/debug-agent": "^2.5.0",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.19",
+    "mongoose": "^5.11.17",
+    "nodemon": "^2.0.7",
+    "socket.io": "^1.7.2"
+  }
+}
